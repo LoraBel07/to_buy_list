@@ -1,0 +1,82 @@
+.header, .myList {
+    display: flex;    
+    justify-content: center;
+
+}
+h1 {
+    font-size: 60px;
+    margin-top: 150px;
+    font-family: 'Oleo Script', cursive;  
+    background: linear-gradient(to top, #0b7507, #fa2509, #1f1bf0);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;    
+    
+}
+
+body {
+    background-image: url(pic2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;    
+    background-color: #f1efef;
+
+}
+.inputText {
+    font-family: 'Oleo Script', cursive;
+    font-size: 25px;
+    color: #6105ca;
+    padding: 10px;
+    width: 50%;
+    border: none;
+}
+.btn {
+    padding: 20px;
+    background: #2c8029;    
+    border: none;
+    font-size: 20px;;
+}
+.btn:hover {
+    background: #13f10c; 
+}
+.toBuyAdded {
+    background: #e67cc6;
+    list-style-type: none;
+    height: 40px;
+    width: 48%;
+    text-align: center;
+    color: #6105ca;
+    font-size: 25px;
+    font-family: 'Oleo Script', cursive;
+    border-bottom: 1px solid white;
+}
+.toBuyList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.toBuyCompleted {
+    background: #3ca138;
+    color: black;
+    text-decoration: line-through;
+    transition: all 0.5s ease;
+}
+
+
+
+
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 70px;
+        margin-top: 320px;               
+    }
+        
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 35px;
+        margin-top: 260px;
+        margin-left: 50px;
+    }    
+}
